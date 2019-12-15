@@ -1,51 +1,162 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="assets/imagens/logo.png">
-	<meta name="generator" content="Site feito por @TheAngeloNew">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	<title>Angelo Soares</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+   	<link rel="shortcut icon" href="assets/imagens/logo.png">
+   	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+   	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+   	<link rel="stylesheet" type="text/css" href="assets/css/menuestilo.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/script.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(20, 20, 20);">
-  <a class="navbar-brand" href="#"><img src="assets/imagens/logo.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index">Início <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="portfolio">Portfolio</a>
-      <a class="nav-item nav-link" href="quem-sou">Quem sou</a>
+    <section class="menu cid-qMMj7O27PE" once="menu" id="menu1-0">
+        <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>           
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                    <li class="nav-item">
+                        <a class="nav-link link" id="menu-link" href="#top">INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" onclick="scrollToPortfolio()" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" onclick="scrollToContact()" href="#">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div class="content bg-white show-1">
+        <div class="container">
+            <div class="nome">
+                <h2>ANGELO</h2><h1>SOARES</h1>
+                <p>Bem-vindos ao meu Portfolio!</p>
+            </div>
+        </div>
     </div>
-  </div>
-</nav>
-	<div class="background">
-		<div class="bgcolor">
-			<h1 class="title">Angelo Soares</h1>
-			<p>Conheçam o meu portfolio</p>
-			<div class="social sociall socialll">
-				<span>
-					<a href="https://twitter.com/TheAngeloNew" target="_blank"><i class="fa fa-twitter"></i></a>
 
-					<a target="_blank" href="https://api.whatsapp.com/send/text=Oi, Angelo!&phone=558587936957"><i class="fa fa-whatsapp"></i></a>
+    <div class="show-2">
+        <div class="quem-sou">
+            <h4>Quem sou</h4>
+            <div class="container">
+                <div class="col-sm-6 center">
+                    <p>Olá! Me chamo Angelo Soares, atualmente tenho 18 anos de idade. Onde sou desde 2017 apaixonado por programação e desenvolvimento de sistemas web. Possuo conhecimento em PHP, JavaScript, servidores Linux e um pouco de WordPress! Entre em contato comigo e conheça o meu trabalho!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					<a href="https://instagram.com/angelo_soaresbr/" target="_blank"><i class="fa fa-instagram"></i></a>
+    <div class="show-3">
+        <div class="trabalhos bg-white" id="portfolio">
+            <h4>Principais trabalhos</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 trabalho">
+                        <img src="assets/imagens/sites/thumbs/aptreca.png" data-toggle="modal" data-target="#Aptreca">
+                    </div>
 
-					<a href="https://github.com/Th3Ang3lo" target="_blank"><i class="fa fa-github"></i></a>
+                    <div class="col-sm-4 trabalho" data-toggle="modal">
+                        <img src="assets/imagens/sites/thumbs/agenciapen.png" data-toggle="modal" data-target="#AgenciaPen">
+                    </div>
 
-					<a id="topo" href="#top" class="topo topoo"><i class="fa fa-arrow-up"></i></a>
-				</span>
-			</div>
-			<p style="font-size: 14pt; font-weight: 200;"><i class="fa fa-map-marker" style="font-size: 20pt;"></i> Caucaia, Ceará, Brasil<p>
-		</div>
-	</div>
+                    <div class="col-sm-4 trabalho" data-toggle="modal">
+                        <img src="assets/imagens/sites/thumbs/anderlynegames.png" data-toggle="modal" data-target="#AnderlyneGames">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Aptreca" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">APTRECA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imagens/sites/prints/aptreca.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="modal fade" id="AgenciaPen" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Agência Pen</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imagens/sites/prints/agenciapen.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="modal fade" id="AnderlyneGames" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Anderlyne Games</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imagens/sites/prints/anderlynegames.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="show-4">
+        <div class="contatoo" id="contato">
+            <h4>Contato</h4>
+            <a href="https://api.whatsapp.com/send?phone=558587936957" target="_blank"><span class="wpp"><i class="fab fa-whatsapp"> Whatsapp: (85) 98793-6957 (Clique)</i></span></a>
+            <a href="https://twitter.com/TheAngeloNew" target="_blank"><span class="tt"><i class="fab fa-twitter"> Twitter: @TheAngeloNew (Clique)</i></span></a>
+        </div>
+    </div>
+
+    <div class="show-5">
+        <div class="footer">
+            <p>&copy; Design by Angelo Soares</p>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="assets/js/utils.js"></script> -->
+</body>
+</html>
