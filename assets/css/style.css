@@ -32,9 +32,6 @@ body{
 
 @media (min-width: 700px){
 	.content{
-		background: url(../imagens/eu.png) no-repeat;
-		background-size: 400px;
-		background-position: right bottom;
 	}
 
 	.nome{
@@ -95,9 +92,6 @@ body{
 
 @media (max-width: 699px){
 	.content{
-		background: url(../imagens/cortada.png) no-repeat;
-		background-size: 200px;
-		background-position: right bottom;
 	}
 
 	.nome{
